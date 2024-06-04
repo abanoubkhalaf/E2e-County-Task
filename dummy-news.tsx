@@ -1,0 +1,40 @@
+export const DUMMY_NEWS = [
+  {
+    id: "6",
+    name: "shoes",
+    description: "shoes 6",
+    price: 60,
+  },
+  {
+    id: "1",
+    name: "shoes",
+    description: "shoes 1",
+    price: 10,
+  },
+
+  {
+    id: "4",
+    name: "necklace 4",
+    description: "necklace 4",
+    price: 40,
+  },
+  {
+    id: "2",
+    name: "Bag 2",
+    description: "Bag 2",
+    price: 20,
+  },
+  {
+    id: "3",
+    name: "phone 3",
+    description: "phone 3",
+    price: 30,
+  },
+
+  {
+    id: "5",
+    name: "ring 5",
+    description: "ring 5",
+    price: 50,
+  },
+];
