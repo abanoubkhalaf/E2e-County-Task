@@ -33,7 +33,8 @@ function CardContextProvider({ children }: { children: React.ReactNode }) {
     });
   }, []);
   useEffect(() => {
-    localStorage.setItem("cardData", JSON.stringify([]));
+    if (!localStorage.getItem("cardData"))
+      localStorage.setItem("cardData", JSON.stringify([]));
   }, []);
   function getData() {
     const localStorageData = localStorage.getItem("cardData");
